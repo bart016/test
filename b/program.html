@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .klasa{
+color: darkorange;
+        }
+    </style>
+</head>
+<body>
+    <audio id="m"> <source src="baited.mp3" type="audio/mpeg"> </audio>
+    <img src="nvidia.jpg" width = 45% id="zdj">
+    <br>
+<button onclick= " GG()" id="button" class=> kliknij po nowe karty graficzne NVIDI w okazyjnej cenie!!!</button>
+<p id="baited"></p>
+<video width="30%" id="b">
+    <source src="b.mp4" >
+</video>
+<script>
+function GG (){
+var zdj= document.getElementById("zdj");
+zdj.setAttribute("src", "gornik.jpg");
+console.log(zdj);
+
+var b = document.getElementById("button");
+b.innerHTML="Baited";
+b.setAttribute("class", "klasa");
+
+var bait = document.getElementById("m");
+bait.play();
+var video = document.getElementById("b");
+video.play();
+
+};
+</script>
+</body>
+</html>
